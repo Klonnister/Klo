@@ -23,19 +23,20 @@
                     <a href="https://klonnister.github.io/QRcode-exercise/">QR code</a>
                     <a href="https://klonnister.github.io/Results-summary-component/">Results Summary</a>
                     <a href="https://klonnister.github.io/Product-review/">Product-review</a>
+                    <!--https://www.frontendmentor.io/profile/Klonnister-->
                 </div>
             </div>
+            <a href="https://github.com/Klonnister">Github</a>
             <a href="">About</a>
         </nav>
     </header>
 
     <main>
-        <div class="container-fluid mt-5 pt-5">
+        <div class="container-fluid mt-5 px-md-4 py-5">
             <div class="row align-items-center">
-                <div class="col-md-6 col-xl-7">
+                <div class="col-md-6 col-xl-7 mb-3 mb-md-0">
                     <h1 class="">Welcome!</h1>
-                    <p>This is an example page, I coded it from scratch!</p>
-                    <p>What I'm practicing here is coding HTML, CSS and a tiny amount of Javascript, which is the language I'm currently learning. </p>
+                    <p>This is an example page, what I'm practicing here is coding HTML, CSS and Bootstrap.</p>
                     <p>Everything in this page is pure front-end coding, which means that I just designed the page visually and semantically. Just so you know, any information you put in this and the next pages is not gonna be stored anywhere as that part is back-end and I still don't know how to do that :p.</p>
                     <p>So, feel free to browse and interact with everything! Rest assured this is just for design and practicing purposes.</p>
                 </div>
@@ -47,17 +48,67 @@
                             <label for="email">Enter your email</label>
                         </div>
                         <div class="form-floating mt-3">
-                            <input type="password" id="password" name="password" class="form-control" aria-describedby="passworddescriber" placeholder="password">
+                            <input type="password" id="password" name="password" class="form-control" aria-describedby="#passworddescriber" placeholder="password">
                             <label for="password">Create a password</label>
-                            <div id="#passworddescriber" class="form-text">Your password must contain 8 characters, including a number and a symbol.</div>
+                            <div id="passworddescriber" class="form-text">Your password must contain 8 characters, including a number and a symbol.</div>
                         </div>
                         <div class="form-floating mt-3">
                             <input type="password" id="passwordconfirm" name="passwordconfirm" class="form-control" placeholder="confirm">
                             <label for="passwordconfirm">Confirm your password</label>
                         </div>
-                        <button type="button" class="btn btn-primary mt-3">Create!</button>
+                        <div class="form-check form-switch mt-2">
+                            <input type="checkbox" id="notifications" name="notifications" role="switch" class="form-check-input">
+                            <label for="notifiations" class="form-check-label">Receive notifications from us!</label>
+                        </div>
+                        <button type="button" class="btn btn-primary mt-3" onclick="alert('Normally, this would lead to another page to add more information, but I am not focusing on that now, thanks for trying it anyways :D')">Create!</button>
                     </form>
                 </div>
+            </div>
+        </div>
+        <div class="container-fluid text-bg-dark-blue px-md-4 py-4">
+            <div class="container-fluid p-3 mb-3">
+                <h2 class="mb-3">Some of the challenges I've completed</h2>
+                <p>Here are some examples I've completed from "www.frontendmentor.io". This is a page people can visit to practice their skills.</p>
+                <p>If you're checking them on your phone, try rotating your screen to see their responsive behaviour (they adapt to any screen sizes :D)</p>
+            </div>
+            
+            <div class="container-fluid">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 justify-content-center gy-3">
+                <div class="col">
+                    <article class="card card-width mx-auto">
+                        <img src="src/images/qr-code.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="card-title">QR code</h3>
+                            <p class="card-text">The very first frontend mentor exercise.</p>
+                            <div class="d-flex justify-content-center">
+                                <a href="https://klonnister.github.io/QRcode-exercise/" class="btn btn-dark">Live Page</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card card-width mx-auto">
+                        <img src="src/images/results-summary.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h2 class="card-title">Results summary</h2>
+                            <div class="d-flex justify-content-center mt-3">
+                                <a href="https://klonnister.github.io/Results-summary-component/" class="btn btn-dark">Live page</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card card-width mx-auto">
+                        <img src="src/images/product-review.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h2 class="card-title">Product review</h2>
+                            <div class="d-flex justify-content-center">
+                                <a href="https://klonnister.github.io/Product-review/" class="btn btn-dark mt-3">Live page</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
             </div>
         </div>
     </main>
