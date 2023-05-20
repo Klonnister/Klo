@@ -1,16 +1,13 @@
 :root {
     --turquoise: rgb(51,139,133);
+    --dark-blue: hsl(194, 88%, 7%);
+    --dark-blue-a: hsl(194, 88%, 4%);
+    --light-sky-blue: hsl(194, 88%, 85%);
+    font-size: 18px;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background: url(/src/images/background.png);
-    margin-top: 5rem;
+main {
+    background-color: hsl(194, 88%, 85%);
 }
 
 header {
@@ -21,6 +18,7 @@ header {
     position: fixed;
     top: 0;
     padding: 0.50rem 0.80rem;
+    z-index: 5;
 }
 
 .logo {
@@ -102,14 +100,8 @@ nav > a:active {
 .green {
     background-color: green;
 }
-.text-white {
-    color:white
+
+.bg-gray {
+    background-color: hsla(194, 11%, 76%, 80%);
 }
 
-.container {
-    padding: 0.50rem;
-}
-
-.big-title {
-    font-size: 3rem;
-}
