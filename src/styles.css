@@ -32,7 +32,10 @@ nav {
 
 nav > :first-child {
     margin-left: 1rem;
-    margin-right: auto;
+}
+
+nav > :last-child {
+    margin-left: auto;
 }
 
 nav > a {
@@ -105,3 +108,11 @@ nav > a:active {
     background-color: hsla(194, 11%, 76%, 80%);
 }
 
+.text-bg-dark-blue {
+    background-color: hsl(194, 88%, 7%);
+    color:white
+}
+
+.card-width {
+    max-width: 18rem;
+}
