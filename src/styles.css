@@ -80,10 +80,10 @@ nav > a:active {
     width: 12rem;
     border-radius: 10px;
     position: absolute;
-    top: 2.3rem;
+    top: 2.6rem;
     left: -5px;
     overflow: hidden;
-    padding-top: 0.75rem;
+    padding-top: 0.25rem;
 }
 
 .link-toggler > .link-cont > a {
@@ -110,7 +110,11 @@ nav > a:active {
 
 .text-bg-dark-blue {
     background-color: hsl(194, 88%, 7%);
-    color:white
+    color:white;
+}
+
+.bg-gray {
+    background-color: rgba(216, 215, 218, 0.75);
 }
 
 .card-width {
