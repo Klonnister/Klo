@@ -80,10 +80,10 @@ nav > a:active {
     width: 12rem;
     border-radius: 10px;
     position: absolute;
-    top: 2.6rem;
+    top: 2.7rem;
     left: -5px;
     overflow: hidden;
-    padding-top: 0.25rem;
+    padding-top: 0.50rem;
 }
 
 .link-toggler > .link-cont > a {
